@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>제목</title>
+    <link rel="stylesheet" href="main.css"><!-- main.css 파일 css로 불러오기-->
+</head>
+<body>
+    <div class="main"> <img src="jj.jpg" class="test">
+        <div id="nowMoney">0</div>
+        <div class="fever">
+            <div id="fever">Fever</div>
+            <div id="feverMain">
+                <div id="feverMainInner"></div>
+            </div>
+        </div>
+        <div id="btn" onclick="addMoney();">씨앗</div>
+        <div id="upgrade" onclick="upgrade();"><img src="gg.jpg"></div>
+
+    </div>
+    
+    <div class="shop"><img src="h.png"class="kk">
+        <div class="ww">Welcom!</div>
+        <div id="changeShop" onclick="changeShop();">U</div>
+        <div id="workerShop"></div>
+        <div id="upgradeShop">
+            <div class="upgrades" id="upgrade0" onclick="buyUpgrade(0);"></div>
+            <div class="upgrades" id="upgrade1" onclick="buyUpgrade(1);"></div>
+            <div class="upgrades" id="upgrade2" onclick="buyUpgrade(2);"></div>
+        </div>
+    </div>
+
+    <script src="data/worker.js"></script> <!-- worker.js 파일 변수로 불러오기-->
+    <script src="data/button.js"></script> <!-- button.js 파일 변수로 불러오기-->
+    <script src="data/mouse.js"></script> <!-- mouse.js 파일 변수로 불러오기-->
+    <script src="main.js"></script> <!-- main.js 파일 js로 불러오기-->
+</body>
+</html>
